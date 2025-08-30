@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillConnect - Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: #2563eb;
+      padding: 15px 30px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    header .logo {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 65vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(135deg, #dbeafe, #eff6ff);
+      padding: 40px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+      color: #1e3a8a;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 0;
+      color: #334155;
+      max-width: 600px;
+    }
+
+    /* Features section */
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+      padding: 50px 20px;
+      background: #fff;
+    }
+
+    .feature-card {
+      background: #f9fafb;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      width: 280px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+    }
+
+    .feature-card h3 {
+      color: #2563eb;
+      margin-bottom: 12px;
+    }
+
+    .feature-card p {
+      font-size: 0.95rem;
+      color: #475569;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #2563eb;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">SkillConnect</div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="marketplace.html">Marketplace</a>
+      <a href="chat.html">Chat</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to SkillConnect</h1>
+    <p>Learn, share, and connect with others through live classes, recorded sessions, and handwritten notes.</p>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="feature-card">
+      <h3>🔴 Live Sessions</h3>
+      <p>Join real-time interactive classes and connect with mentors and peers instantly.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🎥 Recorded Sessions</h3>
+      <p>Access previously recorded lessons anytime and learn at your own pace.</p>
+    </div>
+    <div class="feature-card">
+      <h3>📝 Handwritten Notes</h3>
+      <p>Share and download detailed handwritten notes for better understanding.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 SkillConnect | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
